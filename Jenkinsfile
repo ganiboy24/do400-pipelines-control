@@ -1,7 +1,7 @@
 node('nodejs') {
     stage('Checkout') {
         git branch: 'main',
-            url: 'https://github.com/YOUR_GITHUB_USER/do400-pipelines-control'
+            url: 'https://github.com/ganiboy24/do400-pipelines-control'
 
     }
 
